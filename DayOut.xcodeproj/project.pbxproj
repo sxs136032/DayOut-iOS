@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* DayOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* DayOutApp.swift */; };
+		A00000000000000000000002 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* Activity.swift */; };
+		A00000000000000000000003 /* ActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* ActivityRepository.swift */; };
+		A00000000000000000000004 /* MockActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* MockActivityRepository.swift */; };
+		A00000000000000000000005 /* ExploreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* ExploreModel.swift */; };
+		A00000000000000000000006 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* ActivityCard.swift */; };
+		A00000000000000000000007 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* ExploreView.swift */; };
+		A00000000000000000000008 /* ExploreModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* ExploreModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C00000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00000000000000000000001;
+			remoteInfo = DayOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* DayOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOutApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* ActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRepository.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* MockActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockActivityRepository.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* ExploreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* ExploreModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreModelTests.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* DayOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000A /* DayOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G00000000000000000000002 /* DayOut */,
+				G00000000000000000000008 /* DayOutTests */,
+				G00000000000000000000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G00000000000000000000002 /* DayOut */ = {
+			isa = PBXGroup;
+			children = (
+				G00000000000000000000003 /* App */,
+				G00000000000000000000004 /* Domain */,
+				G00000000000000000000005 /* Data */,
+				G00000000000000000000006 /* Features */,
+			);
+			path = DayOut;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* DayOutApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000004 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000002 /* Activity.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000005 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000003 /* ActivityRepository.swift */,
+				B00000000000000000000004 /* MockActivityRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000006 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				G00000000000000000000007 /* Explore */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000007 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000005 /* ExploreModel.swift */,
+				B00000000000000000000006 /* ActivityCard.swift */,
+				B00000000000000000000007 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000008 /* DayOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000008 /* ExploreModelTests.swift */,
+			);
+			path = DayOutTests;
+			sourceTree = "<group>";
+		};
+		G00000000000000000000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000009 /* DayOut.app */,
+				B0000000000000000000000A /* DayOutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* DayOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H00000000000000000000002 /* Build configuration list for PBXNativeTarget "DayOut" */;
+			buildPhases = (
+				I00000000000000000000001 /* Sources */,
+				F00000000000000000000001 /* Frameworks */,
+				J00000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayOut;
+			productName = DayOut;
+			productReference = B00000000000000000000009 /* DayOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00000000000000000000002 /* DayOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H00000000000000000000003 /* Build configuration list for PBXNativeTarget "DayOutTests" */;
+			buildPhases = (
+				I00000000000000000000002 /* Sources */,
+				F00000000000000000000002 /* Frameworks */,
+				J00000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				K00000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = DayOutTests;
+			productName = DayOutTests;
+			productReference = B0000000000000000000000A /* DayOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E00000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E00000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E00000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = H00000000000000000000001 /* Build configuration list for PBXProject "DayOut" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00000000000000000000001;
+			productRefGroup = G00000000000000000000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000001 /* DayOut */,
+				E00000000000000000000002 /* DayOutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		J00000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		J00000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		I00000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* DayOutApp.swift in Sources */,
+				A00000000000000000000002 /* Activity.swift in Sources */,
+				A00000000000000000000003 /* ActivityRepository.swift in Sources */,
+				A00000000000000000000004 /* MockActivityRepository.swift in Sources */,
+				A00000000000000000000005 /* ExploreModel.swift in Sources */,
+				A00000000000000000000006 /* ActivityCard.swift in Sources */,
+				A00000000000000000000007 /* ExploreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		I00000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000008 /* ExploreModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		K00000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00000000000000000000001 /* DayOut */;
+			targetProxy = C00000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		L00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		L00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		L00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxs136032.DayOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		L00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxs136032.DayOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		L00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxs136032.DayOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayOut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayOut";
+			};
+			name = Debug;
+		};
+		L00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxs136032.DayOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayOut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayOut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H00000000000000000000001 /* Build configuration list for PBXProject "DayOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				L00000000000000000000001 /* Debug */,
+				L00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H00000000000000000000002 /* Build configuration list for PBXNativeTarget "DayOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				L00000000000000000000003 /* Debug */,
+				L00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H00000000000000000000003 /* Build configuration list for PBXNativeTarget "DayOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				L00000000000000000000005 /* Debug */,
+				L00000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00000000000000000000001 /* Project object */;
+}
